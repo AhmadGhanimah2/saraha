@@ -1039,6 +1039,18 @@ section {
     --bs-btn-hover-bg: #3b0e0e;
     color: white;
 }
+.user-profile .form-group h1{
+    color: darkturquoise !important;
+    padding-top: 20px !important;
+}
+.user-profile  button{
+    color: darkturquoise;
+    float:right;
+}
+.user-profile .form-control{
+    display: inline-table;
+}
+
 
 
 @media (max-width: 1199px) {
