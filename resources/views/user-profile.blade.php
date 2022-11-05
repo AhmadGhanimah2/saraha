@@ -15,7 +15,7 @@
         <div class="hero-container" data-aos="fade-in">
 
             <h1></h1>
-            <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span></p>
+            <p>I'm <span style="color: darkturquoise">{{$user->name}}</span> Write some this is geate :) <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span></p>
             <div class="input-group mb-3">
                 <form method="post" action="{{route('home.send-messeges')}}">
                     @csrf
